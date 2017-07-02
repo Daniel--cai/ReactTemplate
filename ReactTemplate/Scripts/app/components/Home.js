@@ -20,7 +20,9 @@ var Home = (function (_super) {
         var sdf = 234;
         return (React.createElement("div", { className: "hello" },
             React.createElement("p", null, "sdfdsf"),
-            React.createElement("button", { className: "btn btn-default", type: "submit" }, sdf)));
+            React.createElement("button", { className: "btn btn-default", type: "submit" },
+                sdf,
+                "sfdf")));
     };
     return Home;
 }(React.Component));
