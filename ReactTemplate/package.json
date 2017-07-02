@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "name": "reacttemplate",
+  "scripts": {
+    "webpack": "webpack -w"
+  },
+  "dependencies": {
+    "react": "15.6.1",
+    "react-dom": "15.6.1"
+  },
+  "devDependencies": {
+    "typescript": "2.4.1",
+    "ts-loader": "2.2.2",
+    "webpack": "3.0.0"
+  }
+}
