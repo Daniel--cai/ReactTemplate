@@ -8,12 +8,12 @@ import { add } from './actions'
 
 const store = createStore(reducer);
 
-const mountApp = document.getElementById('app');
+const mountApp : HTMLElement = document.getElementById('app');
 
-const render = (Component) => {
+const render = (Component: any) => {
     ReactDOM.render(
         <Provider store={store}>
-                <Component />
+            <Component />
         </Provider>, mountApp
 
     );
